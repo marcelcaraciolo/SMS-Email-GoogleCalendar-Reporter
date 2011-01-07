@@ -1,0 +1,11 @@
+This project is a custom featured found by me to send custom messages by E-mail and SMS using the Google Calendar Reminders Feature.
+
+The idea is to set an event to start after 1 h and 15 min of the event you want to alert the administrator. Then, set the reminder to 1 hour before the event. So the diffeeerence will be the time you will receive the Alert. In this case 15 min after the event was tiggered. 
+
+It uses gdata API from google.
+
+It's important to notice that it only works with the main calendar owned by the user (e-mail) passed as parameter.
+It's important also to register your cellphone number with the Google Calendar, by using its settings. Otherwise you won't receive the SMS.
+
+
+
